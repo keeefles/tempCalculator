@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
     <title>Temperature Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      </style>
 </head>
 <body>
-    <div class="Calculator">
-        <h2>Temperature Converter</h2>
-        <p>
-            <label>Fahrenheit</label>
-            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
-            
-        
-    </div>
-    
+    <div class="container">
+        <div class="convert">
+            <label for="celsius">Celsius</label><br>
+            <input type="number" id="celsius">
+        </div>
+
+        <div class="convert">
+            <label for="fahrenheit">Fahrenheit</label><br>
+            <input type="number" id="fahrenheit">
+        </div>
+    </div>    
 <script src="/script/code.js"></script>
 </body>
 </html>
