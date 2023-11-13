@@ -6,7 +6,7 @@ celsius.oninput = () => {
     fahrenheit.value = parseFloat(output.toFixed(2));
 };
 fahrenheit.oninput = () => {
-    let output = (parseFloat(fahrenheit.value) * 9) / 5 + 32;
+    let output = (parseFloat(fahrenheit.value) - 32) * 5 / 9;
     celsius.value = parseFloat(output.toFixed(2));
 };
 
